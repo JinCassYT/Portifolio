@@ -50,8 +50,8 @@ p{color: #9C9EA1;
     width:50%;
     font-size: large;
 }
-a:link {color: #7B7D81;
-  }
+
+  
   a:hover{color: #FFFFFF;}
 
   
@@ -84,4 +84,14 @@ img{display: flex;
     
     }
 
-    a{color: #7B7D81;}
+    a{color: #7B7D81;
+    text-decoration: none;}
+
+
+    .habilidades{color: #ffffff;
+        margin-top: 10%;
+        text-align: center;}
+
+
+        .cards{display: flex;
+        flex-direction: row;}
