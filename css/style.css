@@ -70,8 +70,8 @@ text-align: center;}
 .menuInterativo{background-color: #00000056;
     display: flex;
     flex-direction: row;
-   padding-left: 0%;
-   width: 81%;
+   padding-left: 8%;
+   width: 70%;
    text-align: center;
    margin-top: 5%;
     
@@ -97,18 +97,49 @@ img{display: flex;
 
         .cards{display: flex;
         flex-direction: row;
-        gap: 8%;
-        margin-left: 10%;
+        align-items: center;
+        gap: 3%;
+        margin-left: 8%;
        
         border-radius: 10%;}
 
-        .caixa{background-color: #212121;
-            border: 10px solid #212121;
+        .caixa{    background-color: #212121;
+            border: 5px solid #4325af;
             border-radius: 10%;  
             margin-top: 5%;
-            padding-right: 4%;
-                width: 5%;
-                height: 5%;
+            padding-right: 1%;
+                width: 5%;  
+                
+
              }
 
+           .contato{ color: #ffffff;
+            
+            margin-top: 10%;
+            text-align: center;
            
+        }
+
+        .iconDeContato{
+            display: flex;
+            flex-direction: row;
+            gap: 3%;
+            margin-left: 6%;
+           align-items: center;
+            border-radius: 10%;
+        
+
+        }
+
+        .icon{ 
+            background-color: #212121;
+            border: 5px solid #4325af;
+            border-radius: 10%;  
+            margin-top: 5%;
+            padding-right: 1%;
+                width: 5%;
+                
+                
+
+
+        }
