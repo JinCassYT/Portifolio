@@ -161,11 +161,54 @@ background: #9C9EA1;
 text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;}
 
 
-@media screen and (max-width: 768px){
+@media screen and  ( min-width: 375px ) and (max-width: 896px){
     .container{display: block;
 
 
     }
-    .imgPrincipal{width: 100vw;}
-    .menu{display: block;}
+    
+    .imgPrincipal{width: 100vw;
+    margin-left: 1%;}
+    .menu{display: block;
+    }
+    .menuInterativo{display: flex;
+    flex-direction: column;}
+    h1{margin-left: 15% ;}
+    p{margin-left: 15%;
+    }
+    .cards{display: flex;
+        flex-direction: column;
+        align-items: flex-start; }
+        .caixa{width: 25vw;}
+        .iconDeContato{display: flex;
+        flex-direction: column;
+    align-items: flex-start;
 }
+
+.icon{width: 25vw;}
+    
+    
+       
+
+         
+      
+                
+
+}
+
+@media screen and ( min-width: 897px ) and (max-width: 1650px){ 
+.caixa{padding-right: 8%;
+    margin-left: 1%;
+    }
+    .icon{padding-right: 8%;
+            height: 9vw;
+            margin-left: 1%;
+        }
+        
+        
+}
+
+
+
+
+    
