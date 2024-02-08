@@ -38,7 +38,7 @@ align-items: center;}
     border-radius: 5%;
     width: 40%;
     height: 30%;
-    margin-left: 10%;
+   
    
 
 }
@@ -159,3 +159,13 @@ img{display: flex;
             color: #020107;
 background: #9C9EA1;
 text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;}
+
+
+@media screen and (max-width: 768px){
+    .container{display: block;
+
+
+    }
+    .imgPrincipal{width: 100vw;}
+    .menu{display: block;}
+}
