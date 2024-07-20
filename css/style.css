@@ -1,13 +1,13 @@
 * {
-  margin-top: 1%;
-  margin-left: 2%;
+  margin: 0;
+  padding: 0;
   font-family: "Protest Riot", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 body {
-  background-color: #000000;
+  background-color: #003c43;
 }
 
 .menu {
@@ -33,12 +33,15 @@ hr {
 }
 
 .container {
+  padding-bottom: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .imgPrincipal {
+  display: inline;
+  margin-left: 200px;
   margin-top: 5%;
   border-radius: 5%;
   width: 40%;
@@ -46,12 +49,14 @@ hr {
 }
 
 h1 {
+  margin-left: 30px;
   display: flex;
   color: rgb(234, 244, 252);
   width: 50%;
 }
 
 p {
+  margin-left: 30px;
   color: #9c9ea1;
   width: 50%;
   font-size: large;
@@ -62,28 +67,29 @@ a:hover {
 }
 
 footer {
+  background-color: #e3fef7;
   position: flex;
-  bottom: 0%;
   text-align: center;
-  margin-top: 10%;
+  padding-top: 30px;
   color: #9c9ea1;
 }
 
 .portifolio {
-  margin-top: 10%;
-  margin-left: 1%;
+  background-color: #135d66;
+  padding-top: 50px;
   color: #ffffff;
   text-align: center;
 }
 
 .menuInterativo {
-  background-color: #040508;
-  display: flex;
-  flex-direction: row;
-  padding-left: 1%;
-  width: 70%;
+  margin: 0;
 
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  column-gap: 120px;
+  margin-left: 160px;
   margin-top: 5%;
+  width: 84%;
 }
 img {
   display: flex;
@@ -98,14 +104,16 @@ a {
 }
 
 .habilidades {
+  background-color: #77b0aa;
   color: #ffffff;
-  margin-top: 10%;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
 }
 
 .cards {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   gap: 3%;
   margin-left: 8%;
@@ -114,41 +122,54 @@ a {
 }
 
 .caixa {
-  background-color: #eeff00;
-  border: 5px solid #542cc7;
+  background-color: #003c43;
+  border: 5px solid #135d66;
   border-radius: 10%;
   margin-top: 5%;
-  padding-right: 1%;
-  width: 5%;
+
+  width: 10%;
+  height: 130px;
+}
+.cards .caixa img {
+  padding-left: 10px;
+}
+.cards .caixa p {
+  padding-left: 55px;
 }
 
 .contato {
+  background-color: #e3fef7;
   color: #ffffff;
-
-  margin-top: 10%;
+  padding-top: 50px;
   text-align: center;
 }
 
 .iconDeContato {
   display: flex;
-  flex-direction: row;
-  gap: 3%;
+  justify-content: space-around;
   margin-left: 6%;
   align-items: center;
   border-radius: 10%;
 }
 
 .icon {
-  background-color: #eeff00;
-  border: 5px solid #542cc7;
+  align-items: center;
+  background-color: #99e0b7;
+  border: 5px solid #135d66;
   border-radius: 10%;
   margin-top: 5%;
   padding-right: 1%;
-  width: 5%;
+  width: 140px;
+  height: 130px;
 }
+.icon-ctt {
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
 #bordamenu {
   border-radius: 10%;
-  border: 5px solid #542cc7;
+  border: 5px solid #135d66;
 }
 
 h2 {
