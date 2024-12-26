@@ -1,240 +1,80 @@
 * {
-  margin: 0;
+  margin-left: 3em;
   padding: 0;
-  font-family: "Protest Riot", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
-
 body {
-  background-color: #003c43;
+  background-color: #eef5ff;
 }
-
-.menu {
-  align-items: center;
-  width: 55%;
-  display: flex;
-  flex-direction: row;
-}
-.menu,
-li {
-  padding-left: 8%;
-  font-size: large;
-  list-style: none;
-}
-hr {
-  width: 80%;
-  box-shadow: 10px 10px #0006db;
-}
-
-.logo {
-  color: #dde1e6;
-  font-size: xx-large;
-}
-
-.container {
-  padding-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.imgPrincipal {
-  display: inline;
-  margin-left: 200px;
-  margin-top: 5%;
-  border-radius: 5%;
-  width: 40%;
-  height: 30%;
-}
-
-h1 {
-  margin-left: 30px;
-  display: flex;
-  color: rgb(234, 244, 252);
-  width: 50%;
-}
-
-p {
-  margin-left: 30px;
-  color: #9c9ea1;
-  width: 50%;
-  font-size: large;
-}
-
-a:hover {
-  color: #ffffff;
-}
-
-footer {
-  background-color: #e3fef7;
-  position: flex;
-  text-align: center;
-  padding-top: 30px;
-  color: #9c9ea1;
-}
-
-.portifolio {
-  background-color: #135d66;
-  padding-top: 50px;
-  color: #ffffff;
-  text-align: center;
-}
-
-.menuInterativo {
-  margin: 0;
-
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-  column-gap: 120px;
-  margin-left: 160px;
-  margin-top: 5%;
-  width: 84%;
-}
-img {
-  display: flex;
-
-  width: 100%;
-  height: 70%;
-}
-
-a {
-  color: #7b7d81;
-  text-decoration: none;
-}
-
-.habilidades {
-  background-color: #77b0aa;
-  color: #ffffff;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 3%;
-  margin-left: 8%;
-
-  border-radius: 10%;
-}
-
-.caixa {
-  background-color: #003c43;
-  border: 5px solid #135d66;
-  border-radius: 10%;
-  margin-top: 5%;
-
-  width: 10%;
-  height: 130px;
-}
-.cards .caixa img {
-  padding-left: 10px;
-}
-.cards .caixa p {
-  padding-left: 55px;
-}
-
-.contato {
-  background-color: #e3fef7;
-  color: #ffffff;
-  padding-top: 50px;
-  text-align: center;
-}
-
-.iconDeContato {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 6%;
-  align-items: center;
-  border-radius: 10%;
-}
-
-.icon {
-  align-items: center;
-  background-color: #99e0b7;
-  border: 5px solid #135d66;
-  border-radius: 10%;
-  margin-top: 5%;
-  padding-right: 1%;
-  width: 140px;
-  height: 130px;
-}
-.icon-ctt {
-  padding-left: 5px;
-  padding-top: 20px;
-}
-
-#bordamenu {
-  border-radius: 10%;
-  border: 5px solid #135d66;
+section {
+  margin-top: 3em;
 }
 
 h2 {
-  width: 50%;
-  margin-left: 16%;
-  -webkit-box-shadow: #e9e9e9 0 -1px 4px, rgb(12, 0, 175) 0 -2px 10px,
-    #4912ca 0 -10px 20px, #8d09fa 0 -18px 40px,
-    12px 10px 14px 13px rgba(0, 0, 0, 0.87);
-  box-shadow: #fff 0 -1px 4px, rgb(47, 0, 255) 0 -2px 10px, #5e2abe 0 -10px 20px,
-    rgba(111, 0, 255, 0.37) 0 -18px 40px,
-    12px 10px 14px 13px rgba(0, 0, 0, 0.87);
-  color: #020107;
-  background: #9c9ea1;
-  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+  text-align: center;
+  margin-bottom: 3em;
+}
+h5 {
+  padding-right: 5em;
 }
 
-@media screen and (min-width: 375px) and (max-width: 896px) {
-  .container {
-    display: block;
-  }
-
-  .imgPrincipal {
-    width: 100vw;
-    margin-left: 1%;
-  }
-  .menu {
-    display: block;
-  }
-  .menuInterativo {
-    display: flex;
-    flex-direction: column;
-  }
-  h1 {
-    margin-left: 15%;
-  }
-  p {
-    margin-left: 15%;
-  }
-  .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .caixa {
-    width: 25vw;
-  }
-  .iconDeContato {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .icon {
-    width: 25vw;
-  }
+.container {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.img-inicial {
+  width: 30em;
+  border-radius: 1em;
+}
+.apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10em;
+  gap: 3em;
 }
 
-@media screen and (min-width: 897px) and (max-width: 1650px) {
-  .caixa {
-    padding-right: 8%;
-    margin-left: 1%;
-  }
-  .icon {
-    padding-right: 8%;
-    height: 9vw;
-    margin-left: 1%;
-  }
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.project img {
+  margin: 0;
+}
+.project {
+  gap: 3em;
+}
+.card-body {
+  align-items: center;
+}
+.card-title {
+  margin-left: 1.5em;
+}
+.card-text {
+  margin-left: 0;
+}
+
+.carousel-inner {
+  margin: 0;
+}
+.carousel-inner img {
+  margin: 0;
+
+  height: 30vh;
+}
+.carousel-item.active {
+  margin: 0;
+}
+
+.contato {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon-ctt {
+  margin-top: 3em;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 3em;
+  width: 3em;
 }

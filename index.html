@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,122 +21,228 @@
   </head>
 
   <body>
-    <ul class="menu">
-      <li class="logo">Developer</li>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#portifolio">Portifolio</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-    <hr id="sobre" />
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand col 6" href="#">< D.Zatara /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link col-4 active" aria-current="page" href="#"
+              >Sobre</a
+            >
+            <a class="nav-link col-4" href="#">Portfolio</a>
+            <a class="nav-link col-4" href="#">Skills</a>
+            <a class="nav-link col-4">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-    <div class="container">
-      <img class="imgPrincipal" src="css/img inicial.png" alt="" />
-
-      <div>
-        <h1>Olá, Eu sou Douglas. Desenvolvedor front-end</h1>
+    <header class="container">
+      <div class="apresentacao">
+        <img
+          class="img-inicial"
+          src="css/img inicial.png"
+          alt="Imagem inicial"
+        />
 
         <p>
-          Olá, sou Douglas, um desenvolvedor front-end apaixonado por criar
-          interfaces que se destacam. Com habilidades afiadas em HTML, CSS e
-          JavaScript, meu objetivo é transformar simples ideias em experiências
-          digitais que causam impacto. Dê uma espiada no meu portfólio para ver
-          como eu abordo cada projeto com dedicação e criatividade. Estou pronto
-          para colaborar e construir algo incrível ao seu lado! 👩‍💻🚀
+          <span>About Me</span>
+          <br />
+          Olá, Eu sou Douglas. Desenvolvedor front-end Olá, sou Douglas, um
+          desenvolvedor front-end apaixonado por criar interfaces que se
+          destacam. Com habilidades afiadas em HTML, CSS e JavaScript, meu
+          objetivo é transformar simples ideias em experiências digitais que
+          causam impacto. Dê uma espiada no meu portfólio para ver como eu
+          abordo cada projeto com dedicação e criatividade. Estou pronto para
+          colaborar e construir algo incrível ao seu lado! 👩‍💻🚀
         </p>
       </div>
-    </div>
+    </header>
 
-    <div class="portifolio">
-      <h2 id="portifolio">Portfolio</h2>
-      <hr />
-
-      <ul class="menuInterativo">
-        <li>
-          <a href="https://jincassyt.github.io/POKEDEX-APP/" target="_blank"
-            >Pokedex<img id="bordamenu" src="css/pokedex.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://jincassyt.github.io/Gallery/" target="_blank"
-            >Carossel3D<img id="bordamenu" src="css/Galeria3D.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href="https://jincassyt.github.io/To-Di-List/" target="_blank"
-            >Lista<img id="bordamenu" src="css/To Do List.png" alt=""
-          /></a>
-        </li>
-        <li>
-          <a href=""
-            >produzindo<img
-              id="bordamenu"
-              src="css/Gestor de trafego post instagram.gif"
-              alt=""
-            />
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <section class="habilidades">
-      <h2 id="habilidades">Habilidades</h2>
-      <hr />
-      <div class="cards">
-        <div class="caixa">
-          <p>HTML5</p>
-          <img src="css/html-five-svgrepo-com.svg" alt="" />
+    <section>
+      <h2>Projetos</h2>
+      <div class="project">
+        <div class="card" style="width: 18rem">
+          <img src="css/Galeria3D.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Spider-World</h5>
+            <p class="card-text">
+              Entre nessa experiencia e aprecie um carrosel interativo com tema
+              aranha-verso
+            </p>
+            <a href="#" class="btn btn-primary">Bora-lá</a>
+          </div>
         </div>
-        <div class="caixa">
-          <p>CSS3</p>
-          <img src="css/css-3-svgrepo-com.svg" alt="" />
+        <div class="card" style="width: 18rem">
+          <img src="css/pokedex.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Pokedex</h5>
+            <p class="card-text">
+              Nada de novo no mundo, apenas uma pokedex para treino de
+              responsividade caso queira relembrar sua infancia,abra.
+            </p>
+            <a href="#" class="btn btn-primary">Bora-lá</a>
+          </div>
         </div>
-        <div class="caixa">
-          <p>JavaScript</p>
-          <img src="css/js-official-svgrepo-com.svg" alt="" />
+        <div class="card" style="width: 18rem">
+          <img src="css/To Do List.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">To-do-List</h5>
+            <p class="card-text">
+              Problemas em esquecer itens quando vai as compras?Não aqui,use a
+              lista e adicione tudo que vai ser comprado de forma rapida e
+              pratica.
+            </p>
+            <a href="#" class="btn btn-primary">Bora-lá</a>
+          </div>
         </div>
-
-        <div class="caixa">
-          <p>Bootstrap5</p>
-          <img src="css/bootstrap-svgrepo-com.svg" alt="" />
+        <div class="card" style="width: 18rem">
+          <img
+            src="css/Gestor de trafego post instagram.gif"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Projeto em andamento</h5>
+            <p class="card-text">Aguarde para novidades</p>
+            <a href="#" class="btn btn-primary">Bora-lá</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contato">
-      <h2 id="contato">Contato</h2>
-      <hr />
-
-      <div class="iconDeContato">
-        <div class="icon">
-          <a href="https://github.com/JinCassYT">
-            <img class="icon-ctt" src="css/github-svgrepo-com (1).svg" alt="" />
-          </a>
-        </div>
-        <div class="icon">
-          <a href="https://www.instagram.com/jin_cass_yt/"
-            ><img
-              class="icon-ctt"
-              src="css/instagram-1-svgrepo-com.svg"
-              alt=""
-            />
-          </a>
-        </div>
-        <div class="icon">
-          <a href="https://www.linkedin.com/in/douglas-zatara-47b840288/">
-            <img class="icon-ctt" src="css/linkedin-svgrepo-com.svg" alt="" />
-          </a>
-        </div>
-
-        <div class="icon">
-          <a href="mailto:Douglaszatara1234@gmail.com">
-            <img class="icon-ctt" src="css/email-svgrepo-com.svg" alt="" />
-          </a>
+    <section>
+      <h2>Skills</h2>
+      <div class="carrosell">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="css/html-five-svgrepo-com.svg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HTML5</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="css/css-3-svgrepo-com.svg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>CSS3</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="css/bootstrap-svgrepo-com.svg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Bootstrap5</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="css/js-official-svgrepo-com.svg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>JavaScript</h5>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
     </section>
 
-    <footer>@Direitos Reservados</footer>
+    <section>
+      <h2>Contato</h2>
+
+      <div class="contato">
+        <a href="https://github.com/JinCassYT">
+          <img class="icon-ctt" src="css/github-svgrepo-com (1).svg" alt="" />
+        </a>
+        <a href="https://www.instagram.com/jin_cass_yt/"
+          ><img class="icon-ctt" src="css/instagram-1-svgrepo-com.svg" alt="" />
+        </a>
+        <a href="https://www.linkedin.com/in/douglas-zatara-47b840288/">
+          <img class="icon-ctt" src="css/linkedin-svgrepo-com.svg" alt="" />
+        </a>
+        <a href="mailto:Douglaszatara1234@gmail.com">
+          <img class="icon-ctt" src="css/email-svgrepo-com.svg" alt="" />
+        </a>
+      </div>
+    </section>
+    <footer>@2024 <D.zatara /></footer>
+
     <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
